@@ -222,6 +222,6 @@ exports.main = async(event, context) => {
 
 王者改名小工具
 
-![王者改名小工具](https://github.com/HYUANT/gaimingWeChatMiniProgram/blob/master/docs/wzgm.png)
+![王者改名小工具](https://github.com/HYUANT/gaimingWeChatMiniProgram/blob/master/docs/wzgm.jpg)
 
 
