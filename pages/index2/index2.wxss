@@ -1,0 +1,154 @@
+/* pages/index2/index2.wxss */
+
+.konbai {
+  margin: 25rpx 40rpx;
+}
+
+.konbaibutton {
+  height: 90rpx;
+  font-size: 35rpx;
+}
+
+.gaimingbuju {
+  margin-top: 70rpx;
+}
+
+.gaiming {
+  margin: 17rpx 40rpx;
+  font-size: 33rpx;
+}
+
+.remenFuhao {
+  font-size: 37rpx;
+  padding: 45rpx 40rpx;
+  color: white;
+  margin-top: 50rpx;
+  height: 1400rpx;
+  background-color: #352b50;
+}
+
+.pailie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gezi {
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  overflow: hidden;
+  background-color: #374768;
+  margin: 10rpx 10rpx 10rpx 0rpx;
+  padding: 10rpx 30rpx;
+  border-radius: 5px;
+  font-size: 30rpx;
+}
+
+/* 弹出框 */
+
+.toast-box {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: fixed;
+  top: 0rpx;
+}
+
+.toastbg {
+  opacity: 0.5;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.showToast {
+  position: absolute;
+  opacity: 1;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50%;
+  margin-bottom: 10%;
+}
+
+.toast-title {
+  padding-left: 5%;
+  background-color: #352b50;
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-top-right-radius: 16rpx;
+  border-top-left-radius: 16rpx;
+  height: 50rpx;
+  font-size: 39rpx;
+}
+
+.toast-main {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: white;
+  text-align: center;
+  height: 90rpx;
+}
+
+.toast-input {
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1rpx solid #ddd;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 37rpx;
+  border-radius: 16rpx;
+}
+
+.toast-input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 16rpx;
+}
+
+.toast-button {
+  display: flex;
+  background: white;
+  padding-right: 25rpx;
+  padding-left: 25rpx;
+  padding-bottom: 15rpx;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+
+.button1 {
+  width: 100%;
+  font-size: 38rpx;
+  background-color: white;
+  color: #352b50;
+  margin-right: 25rpx;
+  border-radius: 16rpx;
+  border: 1rpx solid #ddd;
+}
+
+.button2 {
+  width: 100%;
+  font-size: 38rpx;
+  background-color: white;
+  color: #000;
+  margin-left: 25rpx;
+  border-radius: 16rpx;
+  border: 1rpx solid #ddd;
+}
+
+.btn-hover {
+  position: relative;
+  top: 3rpx;
+  box-shadow: 0px 0px 8px #352b50 inset;
+}
+
+.picker {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}

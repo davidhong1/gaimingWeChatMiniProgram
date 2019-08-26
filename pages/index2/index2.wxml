@@ -1,0 +1,38 @@
+<view>
+  <view>
+    <button class='konbai konbaibutton' type='primary' catchtap='konbaibut'>生成空白名</button>
+    <!-- <button class='konbai konbaibutton' type='primary' open-type="contact" session-from="weapp" show-message-card="ture" send-message-title='免费获取密钥' send-message-img='/pages/img/kefushou.jpg'>联系客服获取密钥</button> -->
+    <button class='konbai konbaibutton' type='primary' open-type="contact">联系客服获取密钥</button>
+  </view>
+  <view class='gaimingbuju'>
+    <view wx:for='{{arrayjc}}' wx:key='key'>
+      <view class='gaiming'>{{item}}</view>
+    </view>
+  </view>
+  <view class='remenFuhao'>
+    <view>热门符号和昵称（长按复制）</view>
+    <view class='pailie'>
+      <view class='gezi' wx:for='{{arrayFuhao}}' wx:key="key" catchlongpress="hotText" data-text="{{item}}">
+        {{item}}
+      </view>
+    </view>
+  </view>
+  <!-- 弹出输入框 -->
+  <view class='toast-box' hidden='{{!ifName}}' catchtouchmove="ture">
+    <view class='toastbg'></view>
+    <view class='showToast'>
+      <view class='toast-title'>
+        <text>输入密钥解锁空白名</text>
+      </view>
+      <view class='toast-main'>
+        <view class='toast-input'>
+          <input placeholder='请输入密钥' bindinput='setKey' data-name='stuEidtName'></input>
+        </view>
+      </view>
+      <view class='toast-button'>
+        <button class='button1' hover-class="btn-hover" catchtap='cancel'>取消</button>
+        <button class='button2' hover-class="btn-hover" catchtap='matchKey'>提交</button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class='index'>
+  <view class='head'>
+    <image src='../img/1000.jpg' mode='widthFix' style='width:750rpx;'></image>
+  </view>
+  <view clsaa='content'>
+    <text class='content1 text1'>1.符号名（长按昵称复制）:</text>
+    <input class='content1 input1' placeholder='随机生成，中文自行修改' placeholder-style='color:#A9A9A9;' value='{{input1}}' bindlongpress='long' />
+    <button class='content1 button1' type='primary' catchtap='catch1tap'>随机生成</button>
+  </view>
+  <view>
+    <text class='content1 text1'>2.重复名（1-5个中文）:</text>
+    <input class='content1 input1' placeholder='请输入重复的昵称' placeholder-style='color:#A9A9A9;' value='{{shuruNu}}' bindinput="chongfuInput"/>
+    <button hidden='{{share}}' class='content1 button1' type='primary' open-type="share">分享获取重复名</button>
+    <button hidden='{{!share}}' class='content1 button1' type='primary' catchtap='catch2tap'>重复名生成</button>
+  </view>
+</view>

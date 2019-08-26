@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index1/index1",
+    "pages/index2/index2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "王者改名小工具",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#101010",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "pages/img/homehui.jpg",
+        "selectedIconPath": "pages/img/home.jpg"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "空白名",
+        "iconPath": "pages/img/konghui.jpg",
+        "selectedIconPath": "pages/img/kong.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

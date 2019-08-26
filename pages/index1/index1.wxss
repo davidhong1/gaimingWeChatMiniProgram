@@ -1,0 +1,16 @@
+.content1{
+ margin:20rpx 40rpx;
+}
+.button1{
+  height: 90rpx;
+  font-size: 35rpx;
+}
+.input1{
+  background-color:rgb(255, 255, 255);
+  height: 70rpx;
+  font-size: 11pt;
+  text-align:center;
+}
+.text1{
+  font-size: 35rpx;
+}
